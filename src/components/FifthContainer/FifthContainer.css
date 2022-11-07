@@ -1,0 +1,167 @@
+.FifthContainer {
+  height: 360px;
+  width: 375px;
+  margin-left: 0px;
+  margin-top: 80px;
+  border-radius: 0px;
+  overflow: hidden;
+}
+
+.FifthContainerHeaderText {
+  height: 30px;
+  width: 102px;
+  margin-left: 135px;
+  margin-top: 28px;
+  font-family: "Plus Jakarta Sans";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(3, 3, 3, 1);
+}
+
+.FifthContainerSlideshowbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  height: 155px;
+  width: 1400px;
+  transition: margin 0.5s;
+  margin-top: 32px;
+}
+
+.photo {
+  height: 180px;
+  width: 270px;
+  margin-top: 32px;
+}
+
+.SwitchLeft {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 64px;
+  width: 64px;
+  margin-top: 45px;
+  margin-left: 120px;
+  border-radius: 50px;
+  background: rgba(3, 3, 3, 1);
+  z-index: 2;
+}
+.SwitchLeft:hover {
+  background: rgba(56, 54, 54, 0.77);
+  cursor: pointer;
+  height: 55px;
+  width: 55px;
+}
+
+.ArrowLeft {
+  height: 16px;
+  width: 14.807210922241211px;
+  border-radius: 0px;
+}
+.SwitchRight:hover {
+  background: rgba(56, 54, 54, 0.77);
+  cursor: pointer;
+  height: 55px;
+  width: 55px;
+}
+
+.SwitchRight {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 64px;
+  height: 64px;
+  width: 64px;
+  margin-top: -63px;
+  margin-left: 200px;
+  border-radius: 50px;
+  background: rgba(3, 3, 3, 1);
+}
+
+.ArrowRight {
+  height: 16px;
+  width: 14.807210922241211px;
+
+  border-radius: 0px;
+}
+
+@media only screen and (min-width: 768px) {
+  .FifthContainer {
+    height: 576px;
+    width: 2820px;
+    margin-top: 30px;
+  }
+
+  .FifthContainerHeaderText {
+    height: 40px;
+    width: 136px;
+    margin-top: 50px;
+    margin-left: 320px;
+    font-family: "Plus Jakarta Sans";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+
+  .FifthContainerSlideshowbox {
+    margin-top: 120px;
+  }
+
+  .photo {
+    height: 360px;
+    width: 540px;
+
+    border-radius: 10px;
+  }
+
+  .SwitchLeft {
+    margin-top: 140px;
+    margin-left: 300px;
+  }
+
+  .SwitchRight {
+    margin-left: 400px;
+    margin-top: -64px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .FifthContainerHeaderText {
+    height: 40px;
+    width: 136px;
+    margin-top: 50px;
+    margin-left: 650px;
+    font-family: "Plus Jakarta Sans";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+
+  .FifthContainerSlideshowbox {
+    margin-top: 120px;
+  }
+
+  .photo {
+    height: 360px;
+    width: 540px;
+
+    border-radius: 10px;
+  }
+
+  .SwitchLeft {
+    margin-top: 130px;
+    margin-left: 650px;
+  }
+
+  .SwitchRight {
+    margin-left: 750px;
+    margin-top: -63px;
+  }
+}

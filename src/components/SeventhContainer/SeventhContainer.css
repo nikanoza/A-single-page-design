@@ -1,0 +1,76 @@
+.SeventhContainer {
+  display: flex;
+  height: 48px;
+  width: 343px;
+  margin-top: 42px;
+  margin-left: 16px;
+  border-radius: 0px;
+}
+
+.SeventhHeaderBlackBox {
+  position: relative;
+  margin-left: 0px;
+  margin-top: 3px;
+}
+
+.SeventhBlackRectangleBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 44px;
+  width: 176px;
+  margin-left: 119px;
+  margin-top: 0px;
+  border-radius: 28px;
+  background: #030303;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(255, 247, 240, 1);
+}
+
+.SeventhBlackRectangleBox:hover {
+  background: #1f1f1f;
+}
+.SeventhBlackRectangleBox:hover {
+  cursor: pointer;
+}
+@media only screen and (min-width: 768px) {
+  .SeventhContainer {
+    height: 64px;
+    width: 689px;
+    margin-left: 39px;
+    margin-top: 120px;
+  }
+
+  .SeventhHeaderBlackBox {
+    height: 64px;
+    width: 64px;
+    margin-top: 0px;
+  }
+
+  .SeventhBlackRectangleBox {
+    height: 56px;
+    width: 228px;
+    margin-top: 3px;
+    margin-left: 400px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .SeventhContainer {
+    height: 64px;
+    width: 1111px;
+    margin: -50px auto;
+  }
+
+  .SeventhHeaderBlackBox {
+  }
+
+  .SeventhBlackRectangleBox {
+    margin-left: 800px;
+  }
+}

@@ -1,0 +1,122 @@
+.SixthContainer {
+  padding-top: 10px;
+  height: 352px;
+  width: 343px;
+  margin-left: 15px;
+  margin-top: 100px;
+  border-radius: 10px;
+  background: #030303;
+}
+
+.SixthContainerHeaderText {
+  height: 33px;
+  width: 240px;
+  margin-left: 49px;
+  margin-top: 51px;
+  font-family: "Plus Jakarta Sans";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #fff7f0;
+}
+
+.SixthContainerSmallText {
+  display: inline-block;
+  height: 130px;
+  width: 295px;
+  margin-left: 24px;
+  margin-top: 24px;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #fff7f0;
+}
+
+.SixthContainerButton {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 44px;
+  width: 176px;
+  margin-left: 83px;
+  margin-top: 24px;
+  border-radius: 28px;
+  background: #eb7565;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(255, 247, 240, 1);
+}
+.SixthContainerButton:hover {
+  background: rgb(239, 141, 129);
+}
+.SixthContainerButton:hover {
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .SixthContainer {
+    height: 352px;
+    width: 690px;
+    margin-left: 35px;
+    border-radius: 10px;
+  }
+
+  .SixthContainerHeaderText {
+    height: 40px;
+    width: 540px;
+    margin-left: 70px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .SixthContainerSmallText {
+    margin-left: 70px;
+    height: 84px;
+    width: 540px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .SixthContainerButton {
+    height: 56px;
+    width: 228px;
+    margin-left: 235px;
+    border-radius: 28px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .SixthContainer {
+    height: 320px;
+    width: 1110px;
+    margin: 112px auto;
+  }
+
+  .SixthContainerHeaderText {
+    text-align: left;
+  }
+
+  .SixthContainerSmallText {
+    text-align: left;
+  }
+
+  .SixthContainerButton {
+    margin-left: 700px;
+    margin-top: -150px;
+  }
+}

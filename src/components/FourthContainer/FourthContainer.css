@@ -1,0 +1,176 @@
+.FourthContainer {
+  height: 602px;
+  width: 343px;
+  margin-left: 16px;
+  margin-top: 100px;
+}
+
+.FourthContainerGirl {
+  height: 300px;
+  width: 300px;
+  margin-left: 20px;
+  margin-top: 0px;
+}
+
+.FourthContainerText {
+  height: 66px;
+  width: 343px;
+  margin-left: 0px;
+  margin-top: 40px;
+  font-family: "Plus Jakarta Sans";
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(3, 3, 3, 1);
+}
+
+.FourthContainerTextSmall {
+  height: 104px;
+  width: 343px;
+  margin-left: 0px;
+  margin-top: 24px;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(122, 116, 110, 1);
+}
+.FourthContainerButton:hover {
+  background: rgb(239, 141, 129);
+}
+.FourthContainerButton:hover {
+  cursor: pointer;
+}
+
+.FourthContainerButton {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 44px;
+  width: 176px;
+  margin-left: 90px;
+  margin-top: 20px;
+  border-radius: 28px;
+  background: rgba(235, 117, 101, 1);
+}
+
+.FourthContainerButton {
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(255, 247, 240, 1);
+  border-style: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .FourthContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-top: 120px;
+    height: 364px;
+    width: 772px;
+  }
+
+  .FourthContainerGirl {
+    height: 364px;
+    width: 364px;
+  }
+
+  .FourthContainerText {
+    height: 120px;
+    width: 339px;
+    font-family: "Plus Jakarta Sans";
+    font-size: 32px;
+    margin-top: 0px;
+    margin-left: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+
+  .FourthContainerTextSmall {
+    height: 140px;
+    width: 339px;
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    margin-left: 30px;
+
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+
+  .FourthContainerButton {
+    height: 56px;
+    width: 228px;
+    margin-left: -300px;
+    margin-top: 306px;
+    border-radius: 28px;
+  }
+
+  .FourthContainerButton {
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .FourthContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 445px;
+    width: 1110px;
+    margin: 136px auto;
+  }
+
+  .FourthContainerGirl {
+    height: 445px;
+    width: 445px;
+  }
+
+  .FourthContainerText {
+    height: 100px;
+    width: 540px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 50px;
+  }
+
+  .FourthContainerTextSmall {
+    height: 84px;
+    width: 540px;
+
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+
+  .FourthContainerButton {
+    height: 56px;
+    width: 228px;
+    margin-left: -570px;
+  }
+
+  .FourthContainerButton {
+  }
+}
